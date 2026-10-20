@@ -39,5 +39,9 @@ before launch.
 
 ## Design
 
-Matches the portfolio at belinze.site: IBM Plex Mono, near-black ground, cream text, gold accent,
-1px gold borders and square corners. Tokens live in `app/assets/css/main.css`.
+Brand colours come from the portfolio at belinzenewtone's site: near-black ground, cream text and gold accent,
+with its light cream theme as an alternative. Type is IBM Plex Sans.
+
+Dark and light themes are CSS variables in `app/assets/css/main.css`, switched with `data-theme` on `<html>`.
+The first visit follows the system preference; the toggle stores the choice in `localStorage`. An inline script
+in `<head>` applies it before first paint to avoid a flash.
