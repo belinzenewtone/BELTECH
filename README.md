@@ -6,17 +6,17 @@ Built with Nuxt 4 as a static site.
 ## Develop
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
-Requires Node.js 20 or later.
+Requires Node.js 20 or later and pnpm.
 
 ## Build
 
 ```bash
-npm run generate   # static output in .output/public
-npm run preview
+pnpm generate   # static output in .output/public
+pnpm preview
 ```
 
 ## Configuration
